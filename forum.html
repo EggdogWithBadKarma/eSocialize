@@ -5,37 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eSocia- Forum</title>
 </head>
-<body background="bck.gif">
+<body background="forumbck.gif">
     <header>
-        <h1 align="center"><font color="#FFFFFF" face="Arial">Welcome to </font>
-<font color="white" face="Arial">
+        <h1 align="center"><font face="Arial">Welcome to 
 		eSociolize</font></h1>
 <font color="white">
 <hr>
 	</font>
-	<p align="center"><font face="Arial"><a href="forum.html"><font size="4">
-	Welcome page</font></a><font size="4">&nbsp; <a href="forum.html">Forum</a>&nbsp;
-	<a href="news.html">News</a>&nbsp; </font><a href="coming%20soon.html">
-	<font size="4">Coming soon</font></a></font></p>
+	<p align="center"><font face="Arial"><a href="forum.html">
+	<font size="4" color="#000000">
+	Welcome page</font></a><font size="4">&nbsp; <a href="forum.html">
+	<font color="#000000">Forum</font></a>&nbsp;
+	<a href="news.html"><font color="#000000">News</font></a>&nbsp; </font><a href="coming%20soon.html">
+	<font size="4" color="#000000">Coming soon</font></a></font></p>
 <font color="white">
 <hr>
 	</font>
         <div id="auth-section">
             <div id="register-section">
-                <h2 align="center"><font color="#FFFFFF" face="Arial">Register</font></h2>
+                <h2 align="center"><font face="Arial">Register</font></h2>
                 <form id="register-form">
-                    <p align="center"><font face="Arial" color="#FFFFFF">
+                    <p align="center"><font face="Arial">
                     <label for="register-username">Username:</label>
-                    <input type="text" id="register-username" name="register-username" required>
+                    </font>
+                    <font color="#FFFFFF" face="Arial">
+                    <input type="text" id="register-username" name="register-username" required></font><font face="Arial">
                     <br><br>
                     <label for="register-email">Email:</label>
-                    <input type="email" id="register-email" name="register-email" required>
+                    </font>
+                    <font color="#FFFFFF" face="Arial">
+                    <input type="email" id="register-email" name="register-email" required></font><font face="Arial">
                     <br><br>
                     <label for="register-password">Password:</label>
-                    <input type="password" id="register-password" name="register-password" required>
+                    </font>
+                    <font face="Arial" color="#FFFFFF">
+                    <font color="#FFFFFF">
+                    <input type="password" id="register-password" name="register-password" required></font><font face="Arial">
                     <br><br>
                     </font>
-                    <button type="submit"><font face="Arial">Register</button>
+                    </font>
+                    <button type="submit"><font face="Arial">Register</font></button>
                 	</font></p>
 <font color="white">
 <hr>
@@ -44,24 +53,28 @@
                 </form>
             </div>
             <div id="login-section">
-                <h2 align="center"><font color="#FFFFFF" face="Arial">Login</font></h2>
+                <h2 align="center"><font face="Arial">Login</font></h2>
                 <form id="login-form">
-                    <p align="center"><font face="Arial" color="#FFFFFF">
+                    <p align="center"><font face="Arial">
                     <label for="login-username">Username:</label>
-                    <input type="text" id="login-username" name="login-username" required>
+                    </font>
+                    <font color="#FFFFFF" face="Arial">
+                    <input type="text" id="login-username" name="login-username" required></font><font face="Arial">
                     <br><br>
                     <label for="login-password">Password:</label>
-                    <input type="password" id="login-password" name="login-password" required>
+                    </font>
+                    <font color="#FFFFFF" face="Arial">
+                    <input type="password" id="login-password" name="login-password" required></font><font face="Arial">
                     <br><br>
                     </font>
-                    <button type="submit"><font face="Arial">Login</button>
+                    <button type="submit"><font face="Arial">Login</font></button>
                 	</font></p>
                 </form>
             </div>
             <div id="logout-section" style="display: none;">
                 <p id="welcome-message" align="center"></p>
                 <p align="center">
-                <button id="logout-button"><font face="Arial">Logout</button>
+                <button id="logout-button"><font face="Arial">Logout</font></button>
             	</font>
             </div>
         </div>
@@ -69,33 +82,41 @@
 
     <main>
         <section id="forum-posts" style="display: none;">
-            <h2 align="center"><font color="#FFFFFF" face="Arial">Forum Posts</font></h2>
+            <h2 align="center"><font face="Arial">Forum Posts</font></h2>
 <font color="white">
 <hr>
+<hr>
 	</font>
-	<p align="center">&nbsp;</p>
             <div id="posts-container">
-                <font color="#FFFFFF" face="Arial">
+                <font face="Arial">
                 <!-- Posts will be dynamically inserted here -->
             	</font>
             </div>
         </section>
 
         <section id="new-post" style="display: none;">
-            <h2 align="center"><font color="#FFFFFF" face="Arial">Create a New Post</font></h2>
+            <h2 align="center"><font face="Arial">Create a New Post</font></h2>
             <form id="post-form">
-                <p align="center"><font face="Arial" color="#FFFFFF">
+                <p align="center"><font face="Arial">
                 <label for="post-title">Post Title:</label>
-                <input type="text" id="post-title" name="post-title" required>
+                </font>
+                <font color="#FFFFFF" face="Arial">
+                <input type="text" id="post-title" name="post-title" required></font><font face="Arial">
                 <br><br>
                 <label for="post-content">Content:</label>
-                <textarea id="post-content" name="post-content" rows="5" cols="40" required></textarea>
+                </font>
+                <font color="#000000" face="Arial">
+                <textarea id="post-content" name="post-content" rows="5" cols="40" required></textarea></font><font face="Arial">
                 <br><br>
                 <label for="post-image">Image:</label>
-                <input type="file" id="post-image" name="post-image" accept="image/*">
+                </font>
+                <font face="Arial" color="#FFFFFF">
+                <font color="#FFFFFF">
+                <input type="file" id="post-image" name="post-image" accept="image/*"></font><font face="Arial">
                 <br><br>
                 </font>
-                <button type="submit"><font face="Arial">Submit Post</button>
+                </font>
+                <button type="submit"><font face="Arial">Submit Post</font></button>
             	</font></p>
 <font color="white">
 <hr>
@@ -106,10 +127,10 @@
     </main>
 
     <footer>
-        <p align="center"><font color="#FFFFFF" face="Arial">&copy; 2024 eSocial. All rights reserved.</font></p>
+        <p align="center"><font face="Arial">&copy; 2024 eSocial. All rights reserved.</font></p>
     </footer>
 
-    <font color="#FFFFFF" face="Arial">
+    <font face="Arial">
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
